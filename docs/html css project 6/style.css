@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-image: linear-gradient(#281EFF, #2DFF8C);
+}
+
+.fir-section{
+    text-align: center;
+}
+
+.fir-section>h1{
+    font-size: 160px;
+    font-family: "Satisfy";
+    margin-bottom: -20px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.40);
+}
+
+.fir-section>h2{
+    font-family: "Varela Round";
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.fir-section>p{
+    font-family: "Varela Round";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sec-section{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.form-control>label{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "varela round";
+}
+
+.form-control>input{
+    height: 50px;
+    background-color: #F6F6F624;
+    border: 2px solid #FFFFFF;
+}
+
+.form-control-btn{
+    width: 15%;
+}
+
+.form-control-btn>input{
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+    font-size: 16px;
+    border: 0;
+    font-family: "varela round";
+    font-weight: 500;
+    width: 100%;
+    margin-top: 20.05px;
+}
+
+@media (max-width:750px){
+    .main-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        background-image: linear-gradient(#281EFF, #2DFF8C);
+    }
+    
+    .fir-section{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .fir-section>h1{
+        font-size: 60px;
+        font-family: "Satisfy";
+        margin-bottom: -20px;
+        color: #FFFFFF;
+        text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.40);
+    }
+    
+    .fir-section>h2{
+        font-family: "Varela Round";
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: normal;
+    }
+    
+    .fir-section>p{
+        font-family: "Varela Round";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: normal;
+    }
+    
+    .sec-section{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+    
+    .form-control{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .form-control>label{
+        color: #FFFFFF;
+        font-size: 11px;
+        font-weight: 300;
+        font-family: "varela round";
+        margin-bottom: 5px;
+    }
+    
+    .form-control>input{
+        height: 50px;
+        background-color: #F6F6F624;
+        border: 2px solid #FFFFFF;
+    }
+    
+    .form-control-btn{
+        width: 100%;
+    }
+    
+    .form-control-btn>input{
+        height: 50px;
+        background-color: #FFFFFF;
+        color: #2823FD;
+        font-size: 15px;
+        border: 0;
+        font-family: "varela round";
+        font-weight: 500;
+        width: 100%;
+        margin-top: 0;
+    }
+}

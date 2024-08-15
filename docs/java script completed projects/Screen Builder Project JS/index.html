@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Builder App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+
+
+</head>
+<body dir="rtl">
+    <div id="main-container">
+    <div class="bgc">
+        <div id="right-div">
+        <h1>בונה מסך</h1>
+        <p>ברוכים הבאים לבונה המסכים שלי כאן ניתן לבנות איזה אלמנט שתרצו על המסך השמאלי אתם תרצו את התוצאה</p>
+        <form id="form-container" action="">
+            <div id="create-element">
+                <label for="">בחר סוג אלמנט (div)</label>
+                <input type="text">
+            </div>
+            <div id="element-height">
+                <label for="">גבוה האלמנט (px)</label>
+                <input type="number">
+            </div>
+            <div id="create-width">
+                <label for="">רוחב האלמנט (px)</label>
+                <input type="number">
+            </div>
+            <div id="create-padding">
+                <label for="">ריווח פנימי בין השוליים(px)</label>
+                <input type="number">
+            </div>
+            <div id="element-bg-color">
+                <label for="">צבע הרקע</label>
+                <input type="color" id="bg-color">
+            </div>
+            <div id="element-content">
+                <label for="">תוכן האלמנט</label>
+                <textarea name="" id="element-content" rows="4"></textarea>
+            </div>
+            <div id="element-content-ff">
+                <label for="">משפחת הפונט של התוכן (Assistant, Heebo, Arial)</label>
+                <input type="text">
+            </div>
+            <div id="element-content-fz">
+                <label for="">גודל הפונט של התוכן (px)</label>
+                <input type="number">
+            </div>
+            <div id="element-content-color">
+                <label for="">צבע הפונט של התוכן</label>
+                <input type="color">
+            </div>
+            <div id="submit-button">
+                <input type="button" value="שליחה">
+            </div>
+        </form>
+        </div>
+    </div>
+        <div id="left-div">
+            <div id="left-div-inside">
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="ScreenBuilder.js"></script>
+</body>
+</html>
