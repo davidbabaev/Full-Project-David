@@ -97,10 +97,15 @@
     height: 100%;
     width: 100%;
     padding: 50px 0 50px 0;
-    img{
+    .desktop-poject-js-img{
         width: 70%;
         border-radius: 10px;
         box-shadow: 3px 3px 20px rgba(0,0,0, 0.10);
+    }
+    @media (min-width: 1200px ) {
+        .mobile-poject-js-img{
+            display: none;
+        }
     }
 }
 
